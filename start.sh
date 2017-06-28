@@ -19,4 +19,4 @@ touch /config/sickbeard.db.v42
 touch /config/sickbeard.db.v43
 touch /config/sickbeard.db.v44
 
-/usr/bin/python /sickrage/SickBeard.py --datadir=/config/ --config=/config/config.ini
+exec /usr/bin/python /sickrage/SickBeard.py --datadir=/config/ --config=/config/config.ini
